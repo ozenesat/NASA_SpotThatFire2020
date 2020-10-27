@@ -32,4 +32,4 @@ def get_cost():
         return json.dumps({'get_cost': False}), 400, {'ContentType': 'application/json'}
 
 
-app.run(host='0.0.0.0', port='80')
+app.run()
